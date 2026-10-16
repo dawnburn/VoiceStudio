@@ -8,6 +8,7 @@ Engine availability depends on installed models, hardware, and configured provid
 - **Voice Design**
 - **Video Dubbing**
 - **Dictation Widget**
+- **Live Voice Changer** - [Real-time voice effects for Discord, Zoom and games](live-voice-changer.md)
 - **Vocal Isolation**
 - **Speaker Diarization**
 - **Batch Queue**

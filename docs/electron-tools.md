@@ -14,6 +14,13 @@ Tools in the cloning sidebar or command search opens three utility panes:
   language to the existing fitting service. Invalid durations block submission.
 - Probe file submits an absolute path to the existing ffprobe metadata endpoint.
 
+Live voice changer (Tools > Live voice changer) changes the microphone in real
+time with pitch, tone, robot, radio and echo controls plus presets. It runs in the
+renderer's Web Audio engine through `public/voice-changer-worklet.js`, needs no
+backend or model, and keeps running while you switch pages until you press Stop.
+An output-device picker routes it to a virtual audio cable for calls; see
+[Live voice changer](live-voice-changer.md).
+
 Each operation starts only on explicit submission. Switching tools aborts the
 frontend request and prevents stale results from replacing another tool's content.
 LLM-backed operations follow the configured backend routing. Errors stay compact
